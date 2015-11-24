@@ -36,7 +36,7 @@ Screen readers interpret to the user a description about what is happening in th
 ### Do nots
 * Be redundant
 * Use the phrase "image of" or "graphic of"
-* 
+
 
 ### Do
 * Images should be used when related to page copy and your alt text should show that
@@ -50,9 +50,7 @@ To determine if an image is decorative or not, ask to question--If I didn't use 
 
 ### Complex figures
 With the longdesc tag deprecating with the emergence of HTML5, the figure tag is quickly replacing it. It's purpose is to make a symantic connection between caption and the image.
-<code>
-<figure>
+<code><pre><figure>
 <img src="company-logo.jpg">
 <figcaption>Internet Connections Corporation</figcaption>
-</figure>
-</code>
+</figure></pre></code>
