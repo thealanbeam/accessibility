@@ -30,3 +30,29 @@ Sometimes we use a background image in a div, it would be nice to communicate th
 </pre></code>
 
 
+## Writing a good description
+Screen readers interpret to the user a description about what is happening in the image. These descriptions need to be concise but yet convey actions and words portrayed.
+
+### Do nots
+* Be redundant
+* Use the phrase "image of" or "graphic of"
+* 
+
+### Do
+* Images should be used when related to page copy and your alt text should show that
+	- If the image is followed by a caption, the use of a verbose alt may not be needed
+	- If the image is standing on it's own, it may need a full 
+* show the content and role the image has on the page	
+	
+All images, decorative or not, needs an alt tag. Decorative images suffice with an empty tag i.e. <code>alt =""</code>	
+
+To determine if an image is decorative or not, ask to question--If I didn't use this image, what would I put here?
+
+### Complex figures
+With the longdesc tag deprecating with the emergence of HTML5, the figure tag is quickly replacing it. It's purpose is to make a symantic connection between caption and the image.
+<code>
+<figure>
+<img src="company-logo.jpg">
+<figcaption>Internet Connections Corporation</figcaption>
+</figure>
+</code>
